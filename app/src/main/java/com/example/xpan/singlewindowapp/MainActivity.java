@@ -57,7 +57,8 @@ public class MainActivity extends Activity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                sendCredentialInfo(et.getText().toString());
+                //sendCredentialInfo(et.getText().toString());
+                sendCredentialInfo(this.toString());
             }
         });
     }
