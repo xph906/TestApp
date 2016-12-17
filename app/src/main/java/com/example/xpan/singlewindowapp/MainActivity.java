@@ -105,6 +105,7 @@ public class MainActivity extends Activity {
         change password operation.
         */
         public void postData(String valueIWantToSend) throws Exception {
+//a
             HttpClient httpclient = new DefaultHttpClient();
             HttpPost httppost = new HttpPost(protocol + serverip + ":" + serverport + "/changepassword");
             List< NameValuePair > nameValuePairs = new ArrayList< NameValuePair >(2);
