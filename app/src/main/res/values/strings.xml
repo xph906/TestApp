@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SingleWindowApp</string>
+    <string name="title_name">Title string is firing missles.</string>
+    <string name="fire">Fire.</string>
+    <string name="cancel">Cancel.</string>
 </resources>
